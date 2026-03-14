@@ -92,7 +92,7 @@ All actions are logged in CloudWatch for monitoring.
 1. Open AWS Lambda service.
 2. Click Create Function.
 3. Choose Author from Scratch.
-4. Provide function name: cleanup-unused-resources.
+4. Provide function   [name: cleanup-unused-resources]
 5. Select Python runtime.
 6. Attach the IAM role.
 
@@ -121,30 +121,36 @@ Open CloudWatch logs from the Lambda Monitor tab and verify the cleanup actions.
 
 Example logs:
 
-Starting cleanup process  
-Terminating stopped instance  
-Deleting unattached volume  
-Releasing unused Elastic IP  
-Cleanup completed  
+- Starting cleanup process  
+- Terminating stopped instance  
+- Deleting unattached volume  
+- Releasing unused Elastic IP  
+- Cleanup completed  
 
 ---
+
 
 ## Screenshots
 
 ### Budget Configuration
 ![Budget ](Screenshots/Budgets.png)
 
+
 ### EC2 Instance
-![ec2](Screenshots/EC2.png)
+![ec2](Screenshots/Ec2.png)
+
 
 ### EBS Volume
 ![EBS](Screenshots/EBS_Volume.png)
 
+
 ### Elastic IP
 ![Eip](Screenshots/EIP.png)
 
+
 ### Lambda Function
 ![LAMBDA](Screenshots/Lambda.png)
+
 
 ### CloudWatch Logs
 ![log](Screenshots/Logs.png)
